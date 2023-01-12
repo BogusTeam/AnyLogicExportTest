@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.xj.anylogic.engine.nl">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/com.xj.anylogic.engine.nl.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
