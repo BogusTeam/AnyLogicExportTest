@@ -20,8 +20,23 @@ public class FrontController {
         return "k";
     }
 
+    @GetMapping(value = "/start")
+    public int start() {
+        return 1;
+    }
+
     @GetMapping(value = "/get")
     public List<DtoDB> getData(){
+        return List.of(new DtoDB(1,2,10L,10L,5));
+    }
+
+    @GetMapping(value = "/get_ids")
+    public List<Long> getIds(){
+        return List.of(2L);
+    }
+
+    @GetMapping(value = "/get/{id}")
+    public List<DtoDB> getDataById(){
         return List.of();
     }
 }
