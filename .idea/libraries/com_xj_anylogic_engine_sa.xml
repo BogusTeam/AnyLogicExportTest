@@ -2,6 +2,9 @@
   <library name="com.xj.anylogic.engine.sa">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/com.xj.anylogic.engine.sa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/com.xj.anylogic.engine.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/model.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ProcessModelingLibrary.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
